@@ -1,8 +1,6 @@
 ﻿using System;
 using Interfaces = Ex04.Menus.Interfaces;
 using Delegates = Ex04.Menus.Delegates;
-using Ex04.Menus.Interfaces;
-
 
 namespace Ex04.Menus.Test
 {
