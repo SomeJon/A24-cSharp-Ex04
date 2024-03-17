@@ -14,7 +14,7 @@ namespace Ex04.Menus.Test
 
         internal DelegatesMainMenuTest()
         {
-            m_DelegatesMainMenu = new Delegates.MainMenu();
+            m_DelegatesMainMenu = new Delegates.MainMenu("Delegates MainMenu");
             Delegates.Menu delegatesShowDateOrTime =
                 m_DelegatesMainMenu.StartMenu.CreateSubMenu("Show Date/Time");
             Delegates.Menu delegatesVersionAndCapitals =

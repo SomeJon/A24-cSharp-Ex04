@@ -14,7 +14,7 @@ namespace Ex04.Menus.Test
 
         public InterfaceMainMenuTest()
         {
-            m_InterfacesMainMenu = new Interfaces.MainMenu();
+            m_InterfacesMainMenu = new Interfaces.MainMenu("Interfaces Main Menu");
             Interfaces.Menu interfacesShowDateOrTime =
                 m_InterfacesMainMenu.StartMenu.CreateSubMenu("Show Date/Time");
             Interfaces.Menu interfacesVersionAndCapitals =
